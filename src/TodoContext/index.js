@@ -39,7 +39,6 @@ function TodoProvider(props) {
   } else {
     searchedTodos = todos.filter((todo) => {
       const todoText = todo.text.toLowerCase();
-      const searchValueText = searchValue.toLowerCase();
       return todoText.includes(searchValue);
     });
   }
