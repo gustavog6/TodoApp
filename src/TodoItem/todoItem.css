@@ -25,6 +25,10 @@
   text-decoration-color: #4caf50;
 }
 
+.TodoItem--loading{
+  display: none;
+}
+
 .Icon {
   cursor: pointer;
   display: flex;
