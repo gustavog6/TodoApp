@@ -2,13 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background: rgb(255, 255, 255);
-  /* background: radial-gradient(circle, rgba(93,193,185,1) 0%, rgba(138,224,219,1) 100%); */
-  color: #0a0a23;
+  color: #202124;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  height: 100%;
 }
 
 #root {
-  margin: 0 24px;
-  position: relative;
-  min-height: 100vh;
+  height: 93vh;
 }

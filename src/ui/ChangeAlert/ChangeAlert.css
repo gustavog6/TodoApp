@@ -1,0 +1,22 @@
+.ChangeAlert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ChangeAlert-button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  color: #0a0a23;
+  font-weight: bold;
+  border: 3px solid #0a0a23;
+  border-radius: 10px;
+}
+
+.ChangeAlert-button:hover {
+  transition: all 0.3s ease;
+  -webkit-transition: background-color 0.9s, margin-left 0.3s;
+  background-color: #acd157;
+}

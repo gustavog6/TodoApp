@@ -1,0 +1,116 @@
+.TodoItem {
+  align-items: center;
+  background-color: #d0d0d5;
+  border: 2px solid #0a0a23;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 2px #0a0a23;
+  color: #0a0a23;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  width: 85%;
+  position: relative;
+  margin: 24px auto;
+}
+
+.TodoItem-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 24px 10px 24px -30px;
+  width: calc(100% - 165px);
+}
+
+.TodoItem-p--complete {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #0a0a23;
+}
+
+.TodoItem--loading {
+  display: none;
+}
+
+.TodoItem:hover {
+  background-color: #0a0a23;
+  box-shadow: 3px 3px 1px 2px #d0d0d5;
+  border: 2px solid #d0d0d5;
+  color: #d0d0d5;
+}
+
+.Icon {
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 3px solid #0a0a23;
+  border-radius: 10px;
+}
+.Icon:hover {
+  border: 2px solid #d0d0d5;
+  color: #d0d0d5;
+}
+
+.Icon-check {
+  left: 12px;
+  color: #d0d0d500;
+}
+.Icon-check:hover {
+  transition: all 0.3s ease;
+  -webkit-transition: color 0.9s, margin-left 0.3s;
+  background-color: #4caf50;
+  color: #0a0a23;
+}
+.Icon-check--active {
+  background-color: #4caf50;
+  color: #0a0a23;
+}
+
+.Icon-delete {
+  color: #f82153;
+  right: 12px;
+}
+.Icon-delete:hover {
+  transition: all 0.3s ease;
+  -webkit-transition: color 0.9s, margin-left 0.3s;
+  right: 12px;
+  background-color: #f82153;
+  color: #0a0a23;
+  border-radius: 10px;
+}
+
+.Icon-edit {
+  color: #002ead;
+  right: 56px;
+}
+.Icon-edit:hover {
+  transition: all 0.3s ease;
+  -webkit-transition: color 0.9s, margin-left 0.3s;
+  right: 56px;
+  background-color: #002ead;
+  color: #0a0a23;
+  border-radius: 10px;
+}
+
+.TodoItem:hover .Icon {
+  border: 3px solid #d0d0d5;
+  border-radius: 10px;
+}
+
+.TodoItem:hover .Icon-check:hover {
+  color: #d0d0d5;
+}
+.TodoItem:hover .Icon-edit:hover {
+  color: #d0d0d5;
+}
+.TodoItem:hover .Icon-delete:hover {
+  color: #d0d0d5;
+}
+.TodoItem:hover .TodoItem-p--complete {
+  text-decoration-color: #d0d0d5;
+}

@@ -1,0 +1,21 @@
+.LoadingTodo-container {
+  background-color: #0a0a23;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  margin-top: 24px;
+  color: #d0d0d5;
+  font-weight: bold;
+}
+
+.LoadingTodo-text {
+  margin: 24px 0 24px 24px;
+  width: calc(100% - 120px);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}

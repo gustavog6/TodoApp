@@ -1,0 +1,23 @@
+.ErrorContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.primer-p {
+  margin-top: 0;
+  color: #0a0a23;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.segundo-p {
+  color: #d0d0d5;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
