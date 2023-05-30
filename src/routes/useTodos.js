@@ -94,8 +94,6 @@ function useTodos() {
 
   const getTodo = (id) => {
     const todo = todos.findIndex((todo) => todo.id === id);
-    console.log(todo);
-    console.log(todos[todo]);
     return todos[todo];
   };
 

@@ -6,7 +6,6 @@ function withStorageListener(WrappedComponent) {
 
     window.addEventListener('storage', (change) => {
       if (change.key === 'TODOS_V3') {
-        console.log('HUBO CAMBIOS EN TODOS_V3');
         setStorageChange(true);
       }
     });
